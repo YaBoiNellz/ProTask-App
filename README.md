@@ -144,4 +144,5 @@ There were some roadblocks I ran into when constructing the calendar, some of th
 - The task list component didn't give me too much trouble until I started doing the read and writes to the database, but I eventually figured out how to use it
 - For the notifications I had trouble figuring out how to do it, so I commmented out the code because I didn't get to test it yet
 - For some of the dashboard components I commented out what wasn't working, beacause I didn't have enough time to fix them.
+- I also tried using firebase hosting but it didn't render anything when I delpyed it, but it does run locally.
 - Time Constraint: Because of the time constraint we didn't get to implement all the features we wanted and test our features thoroughly.
