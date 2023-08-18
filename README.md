@@ -93,8 +93,8 @@ mahitha.bushap37@myhunter.cuny.edu
 
 
 
-# Pro Task Calendar App Documentation 
-# Created by Darnell Chambers
+## Pro Task Calendar App Documentation 
+## Created by Darnell Chambers
 
 ## Calendar.css
 1. First I started off the css code by adding an import react from react and a import from Calendar.css the main reason I added this in the code was to start off by linking the Calendar documentation so that when I eventually debug and test the code that it would link to what was written in the calendar css and js code so that when we use the react commands such npm start that it leads straight to the calendar portion in the app
@@ -120,20 +120,28 @@ There were some roadblocks I ran into when constructing the calendar, some of th
 
 
 
-# Rehnuma Nusrat
+## Rehnuma Nusrat
 
 ## Contributions
 ### ToDoList
 - I first started off with implementing the task list component and used firebase real time database for the backend
 - For adding tasks I thought of what would be most useful for the user to input, while also not requiring them to put in too much info.
 - For the styling I worked on making it presentable so users would want to use the task list
+  
 ### Settings/Notifications
 - Created the Settings Page for the user to logout and change their notification preferences
-- For the Notifications I wanted to send the user push 
+- For the Notifications I wanted to send the user push notifications through firebase cloud messaging, however I didn't get to test if it works do I commented out that functionality
 
 ### Firebase Real Time Database
+- I used the firebase to read and write the data for the task list and also made sure the dashboard component was using the same data set to fetch the data
+- I chose this database over the firestore database because I wanted to implement the push notifications for the web while the app was turned off
 
 ### Making sure the components were working with each other
+- We worked on our features separately, but once we put it together there were alot of errors I had to go through and I also had to make sure the components were reading from the database properly
+- I also made sure that the components would redirect to another components when the buttons were clicked and added a sign up and logout button
 
 ## Challenges
-- The task list component didn't give me too much 
+- The task list component didn't give me too much trouble until I started doing the read and writes to the database, but I eventually figured out how to use it
+- For the notifications I had trouble figuring out how to do it, so I commmented out the code because I didn't get to test it yet
+- For some of the dashboard components I commented out what wasn't working, beacause I didn't have enough time to fix them.
+- Time Constraint: Because of the time constraint we didn't get to implement all the features we wanted and test our features thoroughly.
