@@ -1,0 +1,81 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.dashboard-header p {
+  color: #666;
+}
+
+.event-list {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.event-list h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.event-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.event-list li {
+  margin-bottom: 10px;
+}
+
+.dashboard-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dashboard-navigation button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dashboard-navigation button:hover {
+  background-color: #0056b3;
+}
+
+/* Center the work/class schedule content */
+.schedule-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.schedule-container h3 {
+  margin-bottom: 10px;
+  color: #333;
+}

@@ -1,0 +1,105 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  border-width: 2px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  padding: 20px;
+  font-family: serif;
+  background-color: rgb(86, 142, 207);
+}
+
+.Page {
+  background-color: rgb(86, 142, 207); 
+  min-height: 100vh; 
+  padding: 10px; 
+}
+
+.taskName {
+  font-size: 30px;
+  /*font-family: */
+  padding: 5px;
+}
+
+.empty {
+  color: white;
+  font-size: 30px;
+
+}
+
+.Task {
+  border-top-style: dotted;
+  border-width: 1px;
+  border-color: rgb(4, 10, 63);
+  padding: 10px;
+}
+
+.error {
+  color: white;
+  text-align: center;
+  background: red;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  text-indent: 5px;
+}
+
+button {
+  background-color: rgb(11, 20, 104);
+  color: white;
+  border-color: rgb(11, 20, 104);
+  font-size: 15px;
+}
+
+.addTask {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px;
+  background-color: rgb(194, 217, 243);
+}
+
+input {
+  font-size: 15px;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.high {
+  color: white; 
+  font-weight: bold;
+  background-color: red;
+  padding:2px;
+  display:inline;
+  border-color: black;
+}
+
+.medium {
+  color: white; 
+  font-weight: normal;
+  display: inline;
+  background-color: orange;
+  padding: 2px;
+  border-color: black;
+}
+
+.low {
+  color: black; 
+  font-weight: lighter;
+  display:inline;
+  background-color: yellow;
+  padding: 2px;
+}
+
+.priority {
+  text-indent: 5px;
+  padding-top: 8px;
+}
