@@ -1,4 +1,3 @@
-# Mahitha Bushap #
 
 ## Final Project Overview ##
 
